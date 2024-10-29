@@ -3,6 +3,108 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* Pantallas muy pequeñas (teléfonos) */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        gap: 15px;
+    }
+
+    img {
+        height: 200px;
+        width: auto; /* Mantiene la proporción de la imagen */
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copy {
+        align-items: center;
+    }
+
+    .social {
+        flex-direction: row; /* Cambia a fila para ahorrar espacio */
+        gap: 5px;
+    }
+
+    .footernav {
+        flex-direction: row; /* Cambia a fila para ahorrar espacio */
+        gap: 10px;
+    }
+}
+
+/* Pantallas pequeñas a medianas (tabletas) */
+@media (min-width: 601px) and (max-width: 900px) {
+    header {
+        padding: 15px;
+    }
+
+    .navbar {
+        gap: 20px;
+    }
+
+    img {
+        height: 250px;
+        width: auto; /* Mantiene la proporción de la imagen */
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .copy {
+        align-items: flex-start; /* Alinea a la izquierda */
+    }
+
+    .social {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footernav {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+/* Pantallas medianas a grandes (escritorios) */
+@media (min-width: 901px) and (max-width: 1200px) {
+    header {
+        padding: 20px;
+    }
+
+    .navbar {
+        gap: 30px;
+    }
+
+    img {
+        height: 300px;
+        width: 350px;
+    }
+
+    footer {
+        justify-content: space-around;
+    }
+
+    .copy {
+        align-items: left;
+    }
+
+    .social {
+        gap: 10px;
+    }
+
+    .footernav {
+        gap: 5px;
+    }
+}
 
 header {
     padding: 20px;
@@ -23,11 +125,6 @@ img {
     border: 1px solid black;
     height: 300px;
     width: 350px;
-}
-
-
-.nosotros {
-    text-align: center;
 }
 
 footer {
