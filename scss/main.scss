@@ -58,20 +58,39 @@ footer {
 }
 
 .nosotros {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    width: 50%;
+    background-color: red;
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+
     img {
+        margin-left: 35px;
+        display: flex;
+        align-items: center;
         width: 100vh;
     }
 }
 
-.ofrecimientos {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    text-align: start;
+.contenedor-1 {
+    width: 50%;
+    height: 45vh;
+    padding: 25px;
+    margin-left: 25%;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    text-align: center;
 }
+
+// .ofrecimientos {
+//     display: grid;
+//     grid-template-columns: auto;
+// }
 
 
 form {
