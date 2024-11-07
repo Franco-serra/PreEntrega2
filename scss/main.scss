@@ -57,6 +57,23 @@ footer {
     
 }
 
+.nosotros {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img {
+        width: 100vh;
+    }
+}
+
+.ofrecimientos {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+}
+
+
 form {
     display: flex;
     margin-left: 40%;
@@ -215,3 +232,4 @@ input, textarea {
         gap: 5px;
     }
 }
+
