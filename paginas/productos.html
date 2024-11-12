@@ -1,89 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<!-- <head>
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zarate Hardware</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="../style/style.css">
 </head>
 
 <body>
   <header>
+    <h2>Logo</h2>
     <nav>
       <ul class="navbar">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="about.html">Sobre Nosotros</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./about.html">Sobre Nosotros</a></li>
+        <li><a href="./productos.html">Productos</a></li>
+        <li><a href="./contact.html">Contacto</a></li>
+        <li><a href="./servicios.html">Servicios</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <h1>Nuestos Productos</h1>
-    <p>En Zárate Hardware, ofrecemos una variedad de software y hardware para satisfacer tus necesidades informáticas.
+    <div class="caja-titulo">
+      <h1>Nuestros Productos</h1>
+      <p>En Zárate Hardware, ofrecemos una variedad de software y hardware para satisfacer tus necesidades informáticas.
+    </div>
     </p>
-    <section>
-      <ul>
-        <h2>Antivirus y Seguridad</h2>
-        <li>Norton Antivirus</li>
-        <li>McAfee Antivirus</li>
-        <li>Kaspersky Antivirus</li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <h2>Productividad y Oficina</h2>
-        <li>Microsoft Office</li>
-        <li>LibreOffice</li>
-        <li>Google Workspace</li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <h2>Utilidades y Herramientas</h2>
-        <li>CCleaner</li>
-        <li>Glary Utilities</li>
-        <li>Malwarebytes</li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <h2>Sistemas Operativos:</h2>
-        <li>Windows 10</li>
-        <li>Windows 11</li>
-        <li>Linux (varias distribuciones)</li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <h2>Hardware</h2>
-        <li>Placas de Video</li>
-        <li>Procesadores</li>
-        <li>Placas Madre</li>
-        <li>Memorias Ram</li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <h2>Medio de Pago</h2>
-        <li>Paga en línea de forma segura con tarjeta de crédito o débito</li>
-        <li>Paga contra entrega</li>
-        <li>Envío a domicilio o recoger en tienda</li>
-      </ul>
-    </section>
-    <button>Comprar</button>
+    <div class="container-productos">
+      <section class="grid-1">
+        <ul>
+          <img src="#" alt="">
+          <h2>Antivirus y Seguridad</h2>
+          <li>Norton Antivirus</li>
+          <li>McAfee Antivirus</li>
+          <li>Kaspersky Antivirus</li>
+        </ul>
+      </section>
+      <section class="grid-2">
+        <ul>
+          <img src="#" alt="">
+          <h2>Productividad y Oficina</h2>
+          <li>Microsoft Office</li>
+          <li>LibreOffice</li>
+          <li>Google Workspace</li>
+        </ul>
+      </section>
+      <section class="grid-3">
+        <ul>
+          <img src="#" alt="">
+          <h2>Utilidades y Herramientas</h2>
+          <li>CCleaner</li>
+          <li>Glary Utilities</li>
+          <li>Malwarebytes</li>
+        </ul>
+      </section>
+      <section class="grid-4">
+        <ul>
+          <img src="#" alt="">
+          <h2>Sistemas Operativos:</h2>
+          <li>Windows 10</li>
+          <li>Windows 11</li>
+          <li>Linux (varias distribuciones)</li>
+        </ul>
+      </section>
+      <section class="grid-5">
+        <ul>
+          <img src="#" alt="">
+          <h2>Hardware</h2>
+          <li>Placas de Video</li>
+          <li>Procesadores</li>
+          <li>Placas Madre</li>
+          <li>Memorias Ram</li>
+        </ul>
+      </section>
+      <section class="grid-6">
+        <ul>
+          <div class="caja-compra">
+            <h2>Medio de Pago</h2>
+            <li>Paga en línea de forma segura con tarjeta de crédito o débito</li>
+            <li>Paga contra entrega</li>
+            <li>Envío a domicilio o recoger en tienda</li>
+          </div>
+        </ul>
+        <button class="button-1">Comprar</button>
+      </section>
+    </div>
   </main>
   <footer>
-    <p>Síguenos en nuestras redes sociales:</p>
-    <ul class="footer">
-      <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-      <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
-      <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-      <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+    <div class="copy">
+      <h2>Zarate Hardware</h2>
+      <p>© 2024﻿ Zárate Hardware. All rights reserved.
+
+        Terms of Service • Privacy Policy
+
+      </p>
+    </div>
+    <ul class="social">
+      <h2>Social</h2>
+      <li><a href="https://www.facebook.com/ZarateHardware" target="_blank">Facebook</a></li>
+      <li><a href="https://www.twitter.com/ZarateHardware" target="_blank">Twitter</a></li>
+      <li><a href="https://www.instagram.com/ZarateHardware" target="_blank">Instagram</a></li>
+      <li><a href="https://www.linkedin.com/ZarateHardware" target="_blank">LinkedIn</a></li>
+    </ul>
+    <ul class="footernav">
+      <h2>About</h2>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./about.html">Sobre nosotros</a></li>
+      <li><a href="./productos.html">Productos</a></li>
+      <li><a href="./contact.html">Contacto</a></li>
+      <li><a href="./servicios.html">Servicios</a></li>
     </ul>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 </body>
 
-</html> -->
+</html>

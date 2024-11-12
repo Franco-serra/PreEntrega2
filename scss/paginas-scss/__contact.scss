@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px 40px;
+    border-color: black;
+    background-color: gray;
+    box-shadow: 15px 5px 3px 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;  
+}
+
+label {
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input, textarea {
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+    resize: none;
+}

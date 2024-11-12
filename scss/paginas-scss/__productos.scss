@@ -1,0 +1,24 @@
+.caja-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 25px;
+}
+
+.container-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+    .grid-6 {
+        align-self: center;
+        font-size: 23px;
+    }
+}

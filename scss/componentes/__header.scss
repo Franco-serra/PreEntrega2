@@ -1,0 +1,13 @@
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
