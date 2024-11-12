@@ -1,8 +1,7 @@
 form {
     display: flex;
-    margin-left: 40%;
-    margin-right: 40%;
     border-radius: 20px;
+    justify-content: center;
     text-align: center;
     padding: 50px 40px;
     border-color: black;
@@ -31,3 +30,31 @@ input, textarea {
     outline: none;
     resize: none;
 }
+
+@media (max-width: 480px) {
+    form {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: auto;
+        padding: 20px 15px;
+    }
+
+    input, textarea {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    form {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: auto; 
+        padding: 30px 20px;
+    }
+
+    input, textarea {
+        padding: 12px 20px;
+    }
+}
+
+
