@@ -15,13 +15,15 @@ ul li {
 }
 
 header {
-  padding: 20px;
   display: flex;
   justify-content: space-between;
-  background-color: darkgray;
 }
-
-.navbar {
+header img {
+  margin-left: 0;
+  width: 150px;
+  border: 3px solid black;
+}
+header .navbar {
   list-style: none;
   display: flex;
   gap: 30px;
