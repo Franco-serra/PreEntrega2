@@ -1,14 +1,19 @@
-.button-1  {
+
+@mixin boton-estilo {
     margin-top: 30px;
     gap: 24px;
     padding: 12px 20px;
     transition-duration: 0.4s;
-    background-color: #e7e7e7; color: black;
+    background-color: #e7e7e7;
+    color: black;
     border-radius: 25px;
+  
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
 
-}
-
-.button-1:hover {
-    background-color: black;
-    color: white;
-}
+ .button-1 {
+    @include boton-estilo;
+  }
