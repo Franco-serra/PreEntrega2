@@ -1,4 +1,23 @@
 
+$primary-color: #3498db; 
+$secondary-color: #f1c40f; 
+$tertiary-color: #2ecc71; 
+
+
+$white: #ffffff; 
+$black: #000000; 
+$gray: #808080; 
+$light-gray: #f7f7f7; 
+$dark-gray: #333333; 
+
+
+$background-color: #f2f2f2; 
+$background-color-dark: #333333; 
+
+
+$text-color: #333333; 
+$text-color-light: #808080; 
+
 @mixin boton-estilo {
     margin-top: 30px;
     gap: 24px;
@@ -17,3 +36,29 @@
  .button-1 {
     @include boton-estilo;
   }
+
+@mixin boton-estilo2 {
+  background-color: $primary-color; 
+  color: $white; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: $secondary-color; 
+    color: $black; 
+  }
+
+  &:active {
+    background-color: $tertiary-color; 
+    color: $white; 
+  }
+}
+
+.boton {
+  @include boton-estilo2;
+}
+
+

@@ -81,6 +81,24 @@ footer {
   color: white;
 }
 
+.boton {
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.boton:hover {
+  background-color: #f1c40f;
+  color: #000000;
+}
+.boton:active {
+  background-color: #2ecc71;
+  color: #ffffff;
+}
+
 @media (max-width: 480px) {
   form {
     margin-left: 5%;
